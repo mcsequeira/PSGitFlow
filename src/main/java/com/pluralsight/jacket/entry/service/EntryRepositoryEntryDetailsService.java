@@ -52,6 +52,7 @@ public class EntryRepositoryEntryDetailsService implements JacketEntryService {
 
 		} catch (Exception ex) {
             log.debug(ex);
+            //alteration in the release branch
 			throw new JacketException("Unable to find entry", ex);
 		}
  		return jacketEntry;
