@@ -13,3 +13,5 @@ public interface JacketEntryService {
     JacketEntry getEntry(long id);
     void updateEntry(JacketEntry entry);
 }
+// modification for training purposes
+// modification in the feature/2-UsersCan...
